@@ -35,7 +35,7 @@ jobs:
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-##
+###
       - name: Push to Amvera
         run: |
           git remote add amvera git@git.msk1.amvera.ru:tr80r2/project-ziinm-1-26
